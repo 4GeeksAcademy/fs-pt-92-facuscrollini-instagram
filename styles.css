@@ -1,0 +1,64 @@
+html {
+    font-family: "Roboto";
+}
+
+body {
+    display:flex;
+    justify-content:center;
+    background-color: black;
+}
+
+.post {
+    height: 625px;
+    width: 500px;
+    background-color: white;
+}
+
+.save, .interact {
+    font-size: 35px;
+}
+img{
+  width:100%;
+}
+
+.top-post-body {
+    display:flex;
+    justify-content: space-between;
+    margin:10px;
+}
+.post-head {
+    display: flex;
+    justify-content: space-between;
+    height: 5%;
+    margin:15px;
+    align-items:center;
+}
+.leftpost-head {
+    display:flex;
+}
+.logo {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 16px;
+    margin-bottom:16px;
+    font-size: 30px;
+    margin-right: 10px;
+}
+.elipsis {
+    font-size: 35px;
+}
+
+.bottom-post-body {
+    display: flex;
+    flex-direction: column;
+    justify-content:stretch;
+}
+
+.post-body {
+    margin: 15px;
+}
+
+.secondP {
+    margin-top: 0;
+}
